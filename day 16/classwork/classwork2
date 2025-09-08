@@ -1,0 +1,9 @@
+age = int(input("enter your number: "))
+
+print(13 > 18)
+print(13 < 18)
+
+print(age ,'you are adult')
+print(age ,'you are teenager')
+
+

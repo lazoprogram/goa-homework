@@ -1,0 +1,15 @@
+num1 = int(input("enter your number: "))
+num2 = int(input("enter your number: "))
+
+# print(5 > 2)
+# print(10 < 20)
+# print(20 == 20)
+# print(20 >= 15)
+# print(20 <= 30)
+
+print(num1 > num2)
+print(num2 < num1)
+print(num1 == num2)
+print(num1 >= num2)
+print(num1 <= num2)
+print(num1 != num2)
