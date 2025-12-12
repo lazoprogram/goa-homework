@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        img {
+            width: 300px;
+            border-radius: 10px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Image Slider</h2>
+
+<img id="carImage" src="https://tse2.mm.bing.net/th/id/OIP.M3KqGv6OpAKplQ99cSzWmwHaEY?pid=Api&P=0&h=220">
+
+<br>
+
+<button onclick="showRed()">Red Car</button>
+<button onclick="showBlue()">Blue Car</button>
+
+<script>
+    function showRed() {
+        document.getElementById("carImage").src = "https://tse2.mm.bing.net/th/id/OIP.M3KqGv6OpAKplQ99cSzWmwHaEY?pid=Api&P=0&h=220";
+    }
+    function showBlue() {
+        document.getElementById("carImage").src = "https://tse4.mm.bing.net/th/id/OIP.8tG4VLAiK3gTrVuHGy2HLQHaEK?pid=Api&P=0&h=220";
+    }
+</script>
+
+</body>
+</html>
