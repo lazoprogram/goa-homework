@@ -1,0 +1,87 @@
+<!-- rgb = Red, Green, Blue - ამ სამი ფერის გამოყენებით ვიღებთ სხვა ფერს (255, 0, 0) -->
+<!-- hex = hexadecimal color code - იგივეა რაც rgb უბრალოდ აქ ვიყენებთ 16 სიმბოლოს(0-9, A-F) რომ მივიღოთ ფერების კომბინაცია -->
+<!-- pixel - შედგება rgb-ისგან -->
+
+
+<!-- 
+hsl = Hue Saturation Lightness
+hue
+0deg = red,
+120deg = green,
+240deg = blue
+saturation
+0% = gray,
+100% = full color
+lightness
+0% = black,
+50% = normal color,
+100% = white 
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .p-rgb{
+            color: rgb(40, 30, 239)
+        }
+        .p-hex{
+            color: #a235a1
+        }
+        
+        h1{
+            color: #ff0000;
+        }
+        h2{
+            color: #00ff00;
+        }
+        h3{
+            color: #0000ff;
+        }
+        h4{
+            color: #ffff00
+        }
+        h5{
+            color: #000000
+        }
+
+        .p-rgb1{
+            color: rgb(233,111 ,89 );
+        }
+        .h-hex{
+            color: #ffff00;
+        }
+    </style>
+</head>
+<body>
+    <p class="p-rgb">პარაგრაფი 1</p>
+    <p class="p-rgb">პარაგრაფი 2</p>
+    <p class="p-rgb">პარაგრაფი 3</p>
+    <p class="p-hex">პარაგრაფი 4</p>
+    <p class="p-hex">პარაგრაფი 5</p>
+
+
+    <h1>ჰედერი 1</h1>
+    <h2>ჰედერი 2</h1>
+    <h3>ჰედერი 3</h1>
+    <h4>ჰედერი 4</h1>
+    <h5>ჰედერი 5</h1>
+
+
+    <p class="p-rgb1">პარაგრაფი 1</p>
+    <p class="p-rgb1">პარაგრაფი 2</p>
+    <p class="p-rgb1">პარაგრაფი 3</p>
+    <p class="p-rgb1">პარაგრაფი 4</p>
+    <p class="p-rgb1">პარაგრაფი 5</p>
+    
+    <h1 class="h-hex">ჰედერი 1</h1>
+    <h2 class="h-hex">ჰედერი 2</h1>
+    <h3 class="h-hex">ჰედერი 3</h1>
+    <h4 class="h-hex">ჰედერი 4</h1>
+    <h5 class="h-hex">ჰედერი 5</h1>
+</body>
+</html>
