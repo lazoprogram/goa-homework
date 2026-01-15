@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+body{
+    background-color: gray;
+    font-family: "Gravitas One", serif;
+}
+div{
+    width: 400px;
+    height: 250px;
+    background-color: #ff0000;
+}
+.rgb-p{
+    color: rgb(208, 255, 0);
+}
+.hex-p{
+    color: #00ffff;
+}
+#p1{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.neon-text {
+    font-size: 64px;
+    font-weight: bold;
+    color: #00ff99;
+    text-shadow:
+        0 0 5px #0026ff,
+        0 0 10px #0026ff,
+        0 0 20px #0026ff,
+        0 0 40px #0026ff,
+        0 0 80px #0026ff;
+}
